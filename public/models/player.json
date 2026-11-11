@@ -1,0 +1,22 @@
+{
+  "height": 1.95,
+  "rotY": 1.5707963,
+  "dress": true,
+  "hipsBone": "^mixamorigHips$",
+  "chestBone": "^mixamorigSpine2$",
+  "handBone": "^mixamorigRightHand$",
+  "jogSpeed": 2.6,
+  "sprintFrom": 3.4,
+  "sprintRange": 1.2,
+  "sprintSpeed": 6.6,
+  "backSpeed": 2.8,
+  "strafeSpeed": 4.2,
+  "dur": { "juke": 0.55, "spin": 0.8, "throw": 0.55, "catch": 1.0, "cheer": 2.9, "miss": 0.9 },
+  "clips": {
+    "idle": "idle", "jog": "jog", "sprint": "sprint", "walk": null,
+    "back": "back", "strafeL": "strafeL", "strafeR": "strafeR",
+    "juke": "juke", "spin": "spin", "hesi": null,
+    "throw": "throw", "catch": "catch", "pull": null,
+    "cheer": "cheer", "miss": "miss"
+  }
+}
