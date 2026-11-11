@@ -32,7 +32,7 @@ export function createTouchControls(input) {
   mk('face fo', 'O', GLYPHS.O.t, '', GLYPHS.O.c);
   mk('face fs', 'SQ', GLYPHS.SQ.t, '', GLYPHS.SQ.c);
   mk('face ft', 'TRI', GLYPHS.TRI.t, '', GLYPHS.TRI.c);
-  mk('sprint', 'R2', 'SPRINT', 'R2');
+  mk('small sprint', 'R2', 'R2', 'sprint');
   mk('small r1', 'R1', 'R1', 'weggooien');
   mk('small l1', 'L1', 'L1', 'wissel');
   mk('mini pause', 'OPT', 'II', '');

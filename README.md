@@ -1,4 +1,4 @@
-# Flag Rush Mobile
+﻿# Flag Rush Mobile
 
 Flag football (IFAF 5-tegen-5) in 3D voor je telefoon, gebouwd met [Three.js](https://threejs.org) en [Vite](https://vite.dev).
 Dit is de mobiele variant van Flag Rush 3D: dezelfde spelregels en dezelfde 3D-spelers (Mixamo), met touchbesturing en een lichtere weergave.
@@ -12,11 +12,11 @@ Spelen: https://thenosh.github.io/flag-rush-mobile/ (zet je telefoon liggend).
 
 | Knop | Actie |
 |---|---|
-| ✕ | Snap, bevestigen, gooien naar ontvanger X |
-| ◯ | Spin, terug, gooien naar ontvanger ◯ |
-| □ | Juke, gooien naar ontvanger □ |
-| △ | Hesitation, audible, gooien naar ontvanger △ |
-| SPRINT (R2) | Sprinten zolang je de knop vasthoudt (kost stamina) |
+| âœ• | Snap, bevestigen, gooien naar ontvanger X |
+| â—¯ | Spin, terug, gooien naar ontvanger â—¯ |
+| â–¡ | Juke, gooien naar ontvanger â–¡ |
+| â–³ | Hesitation, audible, gooien naar ontvanger â–³ |
+| R2 (rechts naast ✕) | Sprinten zolang je de knop vasthoudt (kost stamina) |
 | R1 | QB: bal weggooien |
 | L1 | Verdediging: wissel naar de speler bij de bal |
 | II | Pauze / volgende play (Options) |
@@ -57,7 +57,7 @@ src/
   data/                teams, plays, dekkingen
   game/                spellogica, GEEN rendering
   input/
-    input.js           controller, toetsenbord en touch samengevoegd tot één invoerlaag
+    input.js           controller, toetsenbord en touch samengevoegd tot Ã©Ã©n invoerlaag
     touch.js           virtuele stick en schermknoppen
   render/              alles wat getekend wordt (scene, veld, stadion, spelers, bal, camera, 2D-overlay)
   main.js              koppelt alles aan elkaar
@@ -80,3 +80,4 @@ tools/mixamo-to-glb.mjs  bouwt public/models/player.glb uit Mixamo-FBX-bestanden
 
 De workflow `.github/workflows/deploy.yml` bouwt en publiceert bij elke push naar `main`. Zet in de repository onder
 *Settings, Pages* de bron op *GitHub Actions*. De site draait op `https://<gebruiker>.github.io/<repo>/` (`base: './'` in `vite.config.js`).
+

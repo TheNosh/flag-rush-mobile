@@ -33,10 +33,11 @@ body.is-touch{position:fixed;inset:0;touch-action:none}
 #touch .fo{right:var(--m);bottom:calc(var(--bt) + var(--s))}
 #touch .fs{right:calc(var(--m) + var(--s)*2);bottom:calc(var(--bt) + var(--s))}
 #touch .ft{right:calc(var(--m) + var(--s));bottom:calc(var(--bt) + var(--s)*2)}
-#touch .sprint{right:calc(var(--m) + var(--s)*3 + 2vw);bottom:calc(var(--bt) + var(--b)*.1);width:calc(var(--b)*1.6);height:calc(var(--b)*.9);border-radius:999px;font-size:calc(var(--b)*.24)}
 #touch .small{width:calc(var(--b)*.95);height:calc(var(--b)*.58);border-radius:999px;font-size:calc(var(--b)*.22);bottom:calc(var(--bt) + var(--s)*2.25)}
 #touch .r1{right:var(--m)}
 #touch .l1{right:calc(var(--m) + var(--s)*2.2)}
+/* R2 (sprint): rechts naast het kruisje, zelfde grootte als R1 */
+#touch .sprint{right:var(--m);bottom:calc(var(--bt) + var(--b)*.21)}
 #touch .mini{top:calc(10px + env(safe-area-inset-top,0px));width:calc(var(--b)*.7);height:calc(var(--b)*.5);border-radius:999px;font-size:calc(var(--b)*.2);background:rgba(14,20,17,.6)}
 #touch .pause{right:calc(var(--sa) + 150px)}
 #touch .cam{right:calc(var(--sa) + 150px + var(--b)*.8)}
